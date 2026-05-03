@@ -1,0 +1,27 @@
+# Large model files
+*.pkl
+*.bin
+*.npy
+*.pt
+*.h5
+
+# FAISS index
+*.faiss
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+secrets.txt
+token.txt
+
+# OS files
+.DS_Store
+Thumbs.db
